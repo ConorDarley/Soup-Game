@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>image_index = 0
 image_speed = 0
+value = 25
 
 check = 1
 </string>
@@ -124,6 +125,7 @@ move_towards_point(room_width/2,room_height/2,3)
             <kind>1</kind>
             <string>if check == 0 {
     instance_create(x,y,obj_ding)
+    global.points += value
     instance_destroy()
 } else {
     check -= 1
