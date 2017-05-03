@@ -13,15 +13,18 @@
     <sprite>sprites\spr_platform</sprite>
     <sprite>sprites\spr_bowl</sprite>
     <sprite>sprites\spr_ding</sprite>
-    <sprite>sprites\sprite7</sprite>
     <sprite>sprites\spr_change_ammo</sprite>
-    <sprite>sprites\spr_icon</sprite>
     <sprite>sprites\spr_cursor</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_table</background>
+  </backgrounds>
   <paths name="paths">
     <path>paths\path0</path>
   </paths>
+  <fonts name="fonts">
+    <font>fonts\ft_24</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_soup</object>
     <object>objects\obj_soupbowl</object>

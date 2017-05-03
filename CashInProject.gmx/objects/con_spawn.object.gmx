@@ -152,8 +152,10 @@ for (p = 0; p &lt; 5; p += 1){
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>draw_text(x,y,display_get_width());
+            <string>draw_set_font(-1)
+draw_text(x,y,display_get_width());
 draw_text(x,y+16,display_get_height());
+draw_set_font(ft_24);
 draw_text(x,y+32,"Points: " + string(display_points));
 </string>
           </argument>
